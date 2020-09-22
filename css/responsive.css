@@ -1,0 +1,154 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 347.98px) {
+    .education-desing h3 {
+        color: #fff;
+        font-size: 26px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+    .content-menu::after {
+        position: absolute;
+        content: '';
+        width: 70%;
+        height: 4px;
+        background-color: #9ab4be;
+        top: 32%;
+        left: 14%;
+    }
+    .content-menu::before {
+        position: absolute;
+        content: '';
+        width: 74%;
+        height: 4px;
+        background-color: #9ab4be;
+        top: 52%;
+        left: 13%;
+    }
+    .content-menu h1 {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 55px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .education-desing h1 {
+        font-size: 23px;
+        color: #f0f0f2;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .education-desing h2 {
+        font-size: 20px;
+        color: #b5b4bf;
+        padding-top: 10px;
+        margin-left: -1px;
+    }
+    .education-desing p {
+        font-size: 19px;
+        color: #a9b2be;
+        line-height: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .education-desing h3 {
+        color: #fff;
+        font-size: 32px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .content-menu::after {
+        position: absolute;
+        content: '';
+        width: 59%;
+        height: 4px;
+        background-color: #9ab4be;
+        top: 32%;
+        left: 18%;
+    }
+    .content-menu::before {
+        position: absolute;
+        content: '';
+        width: 60%;
+        height: 4px;
+        background-color: #9ab4be;
+        top: 55%;
+        left: 18%;
+    }
+    .content-menu h1 {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 63px;
+        letter-spacing: 9px;
+        text-transform: uppercase;
+    }
+    .comment-part {
+        background-color: #63657d;
+        padding: 72px 20px;
+    }
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .content-menu::after {
+        position: absolute;
+        content: '';
+        width: 83%;
+        height: 4px;
+        background-color: #9ab4be;
+        top: 36%;
+        left: 8%;
+    }
+    .content-menu::before {
+        position: absolute;
+        content: '';
+        width: 83%;
+        height: 4px;
+        background-color: #9ab4be;
+        top: 52%;
+        left: 8%;
+    }
+}
+
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .content-menu h1 {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 55px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+    }
+    .btn-custom2 {
+        padding: 6px 35px;
+        background-color: #ff2b4a;
+        margin-top: 26px;
+        border-radius: 0;
+        color: #ffffff;
+        font-weight: 500px;
+        text-transform: capitalize;
+        margin-left: 274px;
+    }
+    .comment-part {
+        background-color: #63657d;
+        padding: 62px 20px;
+    }
+}
